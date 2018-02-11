@@ -12,7 +12,7 @@ Basic composer.json configuration I use to download Drupal 7 for new projects th
 * pathauto
 * token
 * transliteration
-* Views
+* views
 
 ## Contrib themes
 * bootstrap
@@ -31,7 +31,8 @@ There's also a starter SQL dump that can be imported to avoid running install.ph
 * Creates a generic user 1 (drupal/drupal)
 * Deletes the  Basic Page and Article content types
 * Removes Pathauto's default patterns
-* Disables core modules I never use: Color, Comment, Dashboard, Overlay, Shortcut, Taxonomy, and Toolbar.
+* Disables core modules I never use: Color, Comment, Dashboard, Overlay, Shortcut, Taxonomy, and Toolbar
+* Restrict account creation to administrators only
 
 ## envsettings
 Finally, there's a file called 'envsettings/prod/env.settings.inc' that assists in configuring server databases without including them in settings.php (and thus in your repo). Setting this up requires:
