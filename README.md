@@ -32,7 +32,7 @@ There's also a starter SQL dump that can be imported to avoid running install.ph
 * Deletes the  Basic Page and Article content types
 * Removes Pathauto's default patterns
 * Disables core modules I never use: Color, Comment, Dashboard, Overlay, Shortcut, Taxonomy, and Toolbar
-* Restrict account creation to administrators only
+* Restricts account creation to administrators only
 
 ## envsettings
 Finally, there's a file called 'envsettings/prod/env.settings.inc' that assists in configuring server databases without including them in settings.php (and thus in your repo). Setting this up requires:
